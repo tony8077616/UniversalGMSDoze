@@ -64,9 +64,9 @@ unity_custom() {
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "********************************"
+  ui_print "*********************************"
   ui_print "* Universal GMS Doze Experimental Installer"
-  ui_print "********************************"
+  ui_print "*********************************"
 }
 
 ##########################################################################################
