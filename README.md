@@ -7,6 +7,11 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.2.1 (NDE13S, Oct 2018)
+- New modified xml
+- Update doze
+- doze: Perform operations as current user
+
 ### v1.2.0 (NDE08M, Oct 2018)
 - Update Turbo
 - Turbo: Refactor
