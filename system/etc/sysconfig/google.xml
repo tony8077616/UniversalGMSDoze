@@ -20,13 +20,17 @@
          access while in power save mode, even if they aren't in the foreground. -->
 
     <!-- GmsCore must always have network access for GCM and other things. -->
-    <!-- allow-in-power-save package="com.google.android.gms" />
-    <!-- allow-in-data-usage-save package="com.google.android.gms" />
+    <!-- <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
 
     <!-- OobConfig must always have network access to fetch enterprise and carrier lock config. -->
-    <!-- allow-in-power-save-except-idle package="com.google.android.apps.work.oobconfig" />
-    <!-- allow-in-data-usage-save package="com.google.android.apps.work.oobconfig" />
+    <allow-in-power-save-except-idle package="com.google.android.apps.work.oobconfig" />
+    <allow-in-data-usage-save package="com.google.android.apps.work.oobconfig" />
+
+    <!-- Turbo must not have App Standby restrictions in order to push new
+         App Standby buckets to the platform periodically -->
+    <!-- allow-in-power-save-except-idle package="com.google.android.apps.turbo" />
 
     <!-- Certain broadcasts must still go to legacy implicit receivers -->
     <allow-implicit-broadcast action="com.google.android.checkin.CHECKIN_COMPLETE" />
@@ -38,15 +42,15 @@
     <allow-implicit-broadcast action="com.google.android.onetimeinitializer.ONE_TIME_INITIALIZED" />
 
     <!-- Play Store likewise must have network access to support other applications. -->
-    <!-- allow-in-power-save-except-idle package="com.android.vending" />
+    <allow-in-power-save-except-idle package="com.android.vending" />
 
     <!-- If the volta app is pre-installed (for monitoring power use), let it do checkins. -->
-    <!-- allow-in-power-save package="com.google.android.volta" />
+    <allow-in-power-save package="com.google.android.volta" />
 
     <!-- If CarrierServices is installed, it must always have network access to
          reliably receive IMS messages. -->
-    <!-- allow-in-power-save package="com.google.android.ims" />
-    <!-- allow-in-data-usage-save package="com.google.android.ims" />
+    <allow-in-power-save package="com.google.android.ims" />
+    <allow-in-data-usage-save package="com.google.android.ims" />
 
     <!-- These Google applications all handle URLs to their websites by default -->
 
