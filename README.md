@@ -7,8 +7,12 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.2.2 (NDE18T, Oct 2018)
+- New modified `xml`
+- Initiate for Pie's common `etc` (Experimental)
+
 ### v1.2.1 (NDE13S, Oct 2018)
-- New modified xml
+- New modified `xml`
 - Update doze
 - doze: Perform operations as current user
 
