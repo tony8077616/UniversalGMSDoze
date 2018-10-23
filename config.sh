@@ -64,9 +64,9 @@ unity_custom() {
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*********************************"
-  ui_print "* Universal GMS Doze Experimental Installer"
-  ui_print "*********************************"
+  ui_print "******************************"
+  ui_print "* Universal GMS Doze Installer"
+  ui_print "******************************"
 }
 
 ##########################################################################################
@@ -90,7 +90,6 @@ REPLACE="
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
 /system/priv-app/XiaomiDoze
-/system/priv-app/Turbo
 "
 
 ##########################################################################################

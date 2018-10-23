@@ -1,5 +1,5 @@
 # Universal GMS Doze
-This module enables optimized Google Play services for expected better battery saver (Included XiaomiDoze and Turbo prebuilt). [More details in support thread.](https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710)
+This module enables optimized Google Play services for expected better battery saver. [More details in support thread.](https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710)
 
 ## Compatibility
 - Android Marshmallow+
@@ -7,6 +7,14 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.3.0 (NDE23T, Oct 2018)
+- New modified `xml`
+- Optimized Carrier Services and Turbo (Pie)
+- Update doze
+- doze: Refactor
+- Turbo: Cleanup
+- Turbo: Hotfix
+
 ### v1.2.3 (NDE19F, Oct 2018)
 - New modified `xml`
 - Turbo: Refactor
@@ -36,5 +44,5 @@ This module enables optimized Google Play services for expected better battery s
 - [Unity Template](https://github.com/Zackptg5/Unity)
 - [Zackptg5](https://forum.xda-developers.com/member.php?u=6037748) @ xda-developers
 
-## Sources
-- Module: [GitHub](https://github.com/gloeyisk/UniversalGMSDoze)
+## Source Code
+- Module [GitHub](https://github.com/gloeyisk/UniversalGMSDoze)
