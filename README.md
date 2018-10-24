@@ -7,6 +7,12 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.3.1 (NDE24W, Oct 2018)
+- New modified `xml`
+- Update Unity to v1.7.2
+- cu: Checking doze availability
+- Update doze
+
 ### v1.3.0 (NDE23T, Oct 2018)
 - New modified `xml`
 - Optimized Carrier Services and Turbo (Pie)

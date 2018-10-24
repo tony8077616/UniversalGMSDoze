@@ -52,7 +52,17 @@ MAXAPI=28
 
 # Custom Variables for Install AND Uninstall - Keep everything within this function
 unity_custom() {
-  :
+  if [-d "/system/priv-app/XiaomiDoze"]; then
+    ui_print " "
+    ui_print "- Checking doze availability"
+    ui_print "  XiaomiDoze already exist"
+    ui_print "  Aborting"
+  else
+    ui_print " "
+    ui_print "- Checking doze availability"
+    ui_print "  XiaomiDoze doesn't exist"
+    ui_print "  Installing"
+  fi
 }
 
 # Custom Functions for Install AND Uninstall - You can put them here
