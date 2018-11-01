@@ -7,6 +7,13 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.3.2 (NMF01T, Nov 2018)
+- New modified `xml`
+- `xml`: Whitelisted Vending
+- Added modified services
+- Update doze
+- Initiate for OEMs
+
 ### v1.3.1 (NDE24W, Oct 2018)
 - New modified `xml`
 - Update Unity to v1.7.2
@@ -27,7 +34,7 @@ This module enables optimized Google Play services for expected better battery s
 
 ### v1.2.2 (NDE18T, Oct 2018)
 - New modified `xml`
-- Initiate for Pie Pico `commonetc`
+- Initiate for Pie
 
 ### v1.2.1 (NDE13S, Oct 2018)
 - New modified `xml`
@@ -43,7 +50,7 @@ This module enables optimized Google Play services for expected better battery s
 - doze: Cleanup
 
 ### v1.0.0 (NDE06S, Oct 2018)
-- Initial re-release (Experimental)
+- Initial re-release
 
 ## Credits
 - [Developer Previews](https://developer.android.com/topic/performance/power/)

@@ -33,7 +33,7 @@ PROPFILE=false
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 # Unity Variables
 # Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maxium android version for your mod (note that magisk has it's own minimum api: 21 (lollipop))
@@ -54,14 +54,14 @@ MAXAPI=28
 unity_custom() {
   if [-d "/system/priv-app/XiaomiDoze"]; then
     ui_print " "
-    ui_print "- Checking doze availability"
-    ui_print "  XiaomiDoze already exist"
-    ui_print "  Aborting"
+    ui_print "- Checking core module availability"
+    ui_print "   XiaomiDoze already exist"
+    ui_print "   Aborting..."
   else
     ui_print " "
-    ui_print "- Checking doze availability"
-    ui_print "  XiaomiDoze doesn't exist"
-    ui_print "  Installing"
+    ui_print "- Checking core module availability"
+    ui_print "   XiaomiDoze doesn't exist"
+    ui_print "   Installing..."
   fi
 }
 
@@ -99,7 +99,6 @@ REPLACE="
 # Construct your own list here, it will overwrite the example
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
-/system/priv-app/XiaomiDoze
 "
 
 ##########################################################################################
@@ -110,7 +109,7 @@ REPLACE="
 
 set_permissions() {
   # DEFAULT PERMISSIONS, DON'T REMOVE THEM
-    $MAGISK && set_perm_recursive $MODPATH/system/etc/sysconfig 0 0 0755 0644
+  $MAGISK && set_perm_recursive $MODPATH 0 0 0755 0644
 
   # CUSTOM PERMISSIONS
 
@@ -125,4 +124,5 @@ set_permissions() {
 
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
   # set_perm $UNITY$SYS/lib/libart.so 0 0 0644
+  set_perm_recursive  $MODPATH/system/bin/gms  0  0  0755  0755
 }

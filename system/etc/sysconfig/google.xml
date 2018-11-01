@@ -42,7 +42,7 @@
     <allow-implicit-broadcast action="com.google.android.onetimeinitializer.ONE_TIME_INITIALIZED" />
 
     <!-- Play Store likewise must have network access to support other applications. -->
-    <!-- allow-in-power-save-except-idle package="com.android.vending" />
+    <allow-in-power-save-except-idle package="com.android.vending" />
 
     <!-- If the volta app is pre-installed (for monitoring power use), let it do checkins. -->
     <!-- allow-in-power-save package="com.google.android.volta" />
@@ -88,6 +88,8 @@
 
     <!-- Whitelist of what components are permitted as backup data transports.  The
          'service' attribute here is a flattened ComponentName string. -->
+    <backup-transport-whitelisted-service
+        service="android/com.android.internal.backup.LocalTransportService" />
     <backup-transport-whitelisted-service
         service="com.google.android.gms/.backup.BackupTransportService" />
     <backup-transport-whitelisted-service
