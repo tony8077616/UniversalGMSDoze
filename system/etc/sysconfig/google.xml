@@ -42,15 +42,15 @@
     <allow-implicit-broadcast action="com.google.android.onetimeinitializer.ONE_TIME_INITIALIZED" />
 
     <!-- Play Store likewise must have network access to support other applications. -->
-    <allow-in-power-save-except-idle package="com.android.vending" />
+    <!-- allow-in-power-save-except-idle package="com.android.vending" />
 
     <!-- If the volta app is pre-installed (for monitoring power use), let it do checkins. -->
     <!-- allow-in-power-save package="com.google.android.volta" />
 
     <!-- If CarrierServices is installed, it must always have network access to
          reliably receive IMS messages. -->
-    <allow-in-power-save package="com.google.android.ims" />
-    <allow-in-data-usage-save package="com.google.android.ims" />
+    <!-- allow-in-power-save package="com.google.android.ims" />
+    <!-- allow-in-data-usage-save package="com.google.android.ims" />
 
     <!-- These Google applications all handle URLs to their websites by default -->
 

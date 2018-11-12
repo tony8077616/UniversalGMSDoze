@@ -33,7 +33,7 @@ PROPFILE=false
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=true
+LATESTARTSERVICE=false
 
 # Unity Variables
 # Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maxium android version for your mod (note that magisk has it's own minimum api: 21 (lollipop))
@@ -52,17 +52,7 @@ MAXAPI=28
 
 # Custom Variables for Install AND Uninstall - Keep everything within this function
 unity_custom() {
-  if [-d "/system/priv-app/XiaomiDoze"]; then
-    ui_print " "
-    ui_print "- Checking core module availability"
-    ui_print "   XiaomiDoze already exist"
-    ui_print "   Aborting..."
-  else
-    ui_print " "
-    ui_print "- Checking core module availability"
-    ui_print "   XiaomiDoze doesn't exist"
-    ui_print "   Installing..."
-  fi
+   :
 }
 
 # Custom Functions for Install AND Uninstall - You can put them here
@@ -74,9 +64,9 @@ unity_custom() {
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "******************************"
+  ui_print " "
   ui_print "* Universal GMS Doze Installer"
-  ui_print "******************************"
+  ui_print " "
 }
 
 ##########################################################################################
@@ -124,5 +114,5 @@ set_permissions() {
 
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
   # set_perm $UNITY$SYS/lib/libart.so 0 0 0644
-  set_perm_recursive  $MODPATH/system/bin/gms  0  0  0755  0755
+  
 }

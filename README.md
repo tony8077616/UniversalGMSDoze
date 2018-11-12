@@ -7,6 +7,11 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.3.3 (NMF12M, Nov 2018)
+- New modified `xml`
+- Removed gms binary
+- doze: Cleanup
+
 ### v1.3.2 (NMF01T, Nov 2018)
 - New modified `xml`
 - `xml`: Whitelisted Vending
