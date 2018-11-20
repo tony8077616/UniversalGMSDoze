@@ -49,8 +49,8 @@
 
     <!-- If CarrierServices is installed, it must always have network access to
          reliably receive IMS messages. -->
-    <!-- allow-in-power-save package="com.google.android.ims" />
-    <!-- allow-in-data-usage-save package="com.google.android.ims" />
+    <allow-in-power-save package="com.google.android.ims" />
+    <allow-in-data-usage-save package="com.google.android.ims" />
 
     <!-- These Google applications all handle URLs to their websites by default -->
 
@@ -88,8 +88,6 @@
 
     <!-- Whitelist of what components are permitted as backup data transports.  The
          'service' attribute here is a flattened ComponentName string. -->
-    <backup-transport-whitelisted-service
-        service="android/com.android.internal.backup.LocalTransportService" />
     <backup-transport-whitelisted-service
         service="com.google.android.gms/.backup.BackupTransportService" />
     <backup-transport-whitelisted-service

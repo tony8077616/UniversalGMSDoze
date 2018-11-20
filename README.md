@@ -1,5 +1,5 @@
 # Universal GMS Doze
-This module enables optimized Google Play services for expected better battery saver. [More details in support thread.](https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710)
+This module enables optimized Google Play services for expected better battery life. [More details in support thread.](https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710)
 
 ## Compatibility
 - Android Marshmallow+
@@ -7,6 +7,10 @@ This module enables optimized Google Play services for expected better battery s
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.3.4 (NMF20T, Nov 2018)
+- New modified `xml`
+- `xml`: Reverted to old methods
+
 ### v1.3.3 (NMF12M, Nov 2018)
 - New modified `xml`
 - Removed gms binary
