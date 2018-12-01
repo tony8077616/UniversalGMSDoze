@@ -7,6 +7,9 @@ This module enables optimized Google Play services for expected better battery l
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.4.0 (NGI01S, Dec 2018)
+- New modified `xml`
+
 ### v1.3.4 (NMF20T, Nov 2018)
 - New modified `xml`
 - `xml`: Reverted to old methods

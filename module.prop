@@ -1,7 +1,7 @@
 id=UniversalGMSDoze
 name=Universal GMS Doze
-version=v1.3.4 (NMF20T, Nov 2018)
-versionCode=134
+version=v1.4.0 (NGI01S, Dec 2018)
+versionCode=140
 author=gloeyisk
 description=Universal GMS Doze is a simple way to optimized the Google Play services and expected for better battery life.
 minMagisk=17000
