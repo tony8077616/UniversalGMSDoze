@@ -7,6 +7,11 @@ This module enables optimized Google Play services for expected better battery l
 - All doze/hibernator apps
 
 ## Recent Changes
+### v1.4.1 (NGI09S, Dec 2018)
+- Added modified props
+- Update Unity to v1.8.1
+- Unity: Merged latest changes
+
 ### v1.4.0 (NGI01S, Dec 2018)
 - New modified `xml`
 

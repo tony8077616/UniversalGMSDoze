@@ -27,7 +27,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -37,6 +37,7 @@ LATESTARTSERVICE=false
 
 # Unity Variables
 # Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maxium android version for your mod (note that magisk has it's own minimum api: 21 (lollipop))
+# Uncomment SEPOLICY if you have sepolicy patches in common/sepolicy.sh. Unity will take care of the rest
 # Uncomment DYNAMICOREO if you want libs installed to vendor for oreo and newer and system for anything older
 # Uncomment DYNAMICAPP if you want anything in $INSTALLER/system/app to be installed to the optimal app directory (/system/priv-app if it exists, /system/app otherwise)
 # Uncomment SYSOVERRIDE if you want the mod to always be installed to system (even on magisk)
@@ -44,6 +45,7 @@ LATESTARTSERVICE=false
 # Uncomment DEBUG if you want full debug logs (saved to SDCARD if in twrp, part of regular log if in magisk manager (user will need to save log after flashing)
 MINAPI=23
 MAXAPI=28
+#SEPOLICY=true
 #SYSOVERRIDE=true
 #DYNAMICOREO=true
 #DYNAMICAPP=true
@@ -52,7 +54,7 @@ MAXAPI=28
 
 # Custom Variables for Install AND Uninstall - Keep everything within this function
 unity_custom() {
-   :
+  :
 }
 
 # Custom Functions for Install AND Uninstall - You can put them here
@@ -114,5 +116,4 @@ set_permissions() {
 
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
   # set_perm $UNITY$SYS/lib/libart.so 0 0 0644
-  
 }
