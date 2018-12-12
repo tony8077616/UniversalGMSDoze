@@ -1,9 +1,9 @@
-# This file will be read by resetprop
-# Example: Change dpi
-# ro.sf.lcd_density=320
-# Universal GMS Doze by gloeyisk
+# Universal GMS Doze
+# Copyright © 2018 GL-DP, gloeyisk
+# This modified props is General
+# Credits to the original author (if applicable)
 # Additional props
-ro.debuggable=0
+ro.debuggable=1
 debug.atrace.tags.enableflags=0
 persist.sys.scrollingcache=3
 power.saving.mode=1

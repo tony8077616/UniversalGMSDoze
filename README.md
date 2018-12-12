@@ -6,55 +6,45 @@ This module enables optimized Google Play services for expected better battery l
 - SELinux Enforcing
 - All doze/hibernator apps
 
-## Recent Changes
+## Changelogs
+### v1.4.2 (NGI12W, Dec 2018)
+- Update doze modified setup
+- Update Unity to v1.8.2
+
 ### v1.4.1 (NGI09S, Dec 2018)
 - Added modified props
 - Update Unity to v1.8.1
 - Unity: Merged latest changes
 
 ### v1.4.0 (NGI01S, Dec 2018)
-- New modified `xml`
+- New modified xml
 
 ### v1.3.4 (NMF20T, Nov 2018)
-- New modified `xml`
-- `xml`: Reverted to old methods
+- xml: Reverted to old methods
 
 ### v1.3.3 (NMF12M, Nov 2018)
-- New modified `xml`
 - Removed gms binary
 - doze: Cleanup
 
 ### v1.3.2 (NMF01T, Nov 2018)
-- New modified `xml`
-- `xml`: Whitelisted Vending
-- Added modified services
 - Update doze
 - Initiate for OEMs
 
 ### v1.3.1 (NDE24W, Oct 2018)
-- New modified `xml`
 - Update Unity to v1.7.2
-- cu: Checking doze availability
-- Update doze
 
 ### v1.3.0 (NDE23T, Oct 2018)
-- New modified `xml`
-- Optimized Carrier Services and Turbo (Pie)
 - Update doze
 - doze: Refactor
-- Turbo: Cleanup
 - Turbo: Hotfix
 
 ### v1.2.3 (NDE19F, Oct 2018)
-- New modified `xml`
 - Turbo: Refactor
 
 ### v1.2.2 (NDE18T, Oct 2018)
-- New modified `xml`
 - Initiate for Pie
 
 ### v1.2.1 (NDE13S, Oct 2018)
-- New modified `xml`
 - Update doze
 - doze: Perform operations as current user
 
