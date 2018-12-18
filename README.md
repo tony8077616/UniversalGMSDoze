@@ -7,6 +7,9 @@ This module enables optimized Google Play services for expected better battery l
 - All doze/hibernator apps
 
 ## Changelogs
+### v1.4.3 (NGI18T, Dec 2018)
+- Update Unity to v2.0
+
 ### v1.4.2 (NGI12W, Dec 2018)
 - Update doze modified setup
 - Update Unity to v1.8.2

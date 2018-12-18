@@ -36,7 +36,7 @@ POSTFSDATA=false
 LATESTARTSERVICE=false
 
 # Unity Variables
-# Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maxium android version for your mod (note that magisk has it's own minimum api: 21 (lollipop))
+# Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maxium android version for your mod (note that unity's minapi is 21 (lollipop) due to bash and magisk binaries)
 # Uncomment SEPOLICY if you have sepolicy patches in common/sepolicy.sh. Unity will take care of the rest
 # Uncomment DYNAMICOREO if you want libs installed to vendor for oreo and newer and system for anything older
 # Uncomment DYNAMICAPP if you want anything in $INSTALLER/system/app to be installed to the optimal app directory (/system/priv-app if it exists, /system/app otherwise)
@@ -44,7 +44,7 @@ LATESTARTSERVICE=false
 # Uncomment RAMDISK if you have ramdisk modifications. If you only want ramdisk patching as part of a conditional, just keep this commented out and set RAMDISK=true in that conditional.
 # Uncomment DEBUG if you want full debug logs (saved to SDCARD if in twrp, part of regular log if in magisk manager (user will need to save log after flashing)
 MINAPI=23
-MAXAPI=28
+#MAXAPI=25
 #SEPOLICY=true
 #SYSOVERRIDE=true
 #DYNAMICOREO=true
@@ -52,12 +52,10 @@ MAXAPI=28
 #RAMDISK=true
 #DEBUG=true
 
-# Custom Variables for Install AND Uninstall - Keep everything within this function
+# Custom Variables - Keep everything within this function
 unity_custom() {
   :
 }
-
-# Custom Functions for Install AND Uninstall - You can put them here
 
 ##########################################################################################
 # Installation Message
@@ -67,7 +65,12 @@ unity_custom() {
 
 print_modname() {
   ui_print " "
-  ui_print "* Universal GMS Doze Installer"
+  ui_print "    *******************************************"
+  ui_print "    *<name>*"
+  ui_print "    *******************************************"
+  ui_print "    *<version>*"
+  ui_print "    *<author>*"
+  ui_print "    *******************************************"
   ui_print " "
 }
 
