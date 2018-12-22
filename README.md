@@ -7,6 +7,9 @@ This module enables optimized Google Play services for expected better battery l
 - All root solutions
 
 ## Changelogs
+### v1.4.5 (NGI22S, Dec 2018)
+- Update Unity to v2.1
+
 ### v1.4.4 (NGI20T, Dec 2018)
 - New modified xml
 - Light doze systems

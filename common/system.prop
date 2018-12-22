@@ -2,16 +2,4 @@
 # Copyright © 2018 GL-DP, gloeyisk
 # This modified props is General
 # Credits to the original author (if applicable)
-# Power saving systems
-pm.sleep_mode=0
-ro.ril.disable.power.collapse=1
-ro.ril.power_collapse=0
-power_supply.wakeup=enable
-ro.config.hw_power_saving=0
-power.saving.mode=0
-
-# Memory managements
-ro.config.hw_quickpoweron=true
-persist.sys.shutdown.mode=hibernate
-debug.kill_allocating_task=0
-ro.HOME_APP_ADJ=1
+# Removed for temporary periods
