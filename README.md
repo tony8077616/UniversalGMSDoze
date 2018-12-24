@@ -7,6 +7,9 @@ This module enables optimized Google Play services for expected better battery l
 - All root solutions
 
 ## Changelogs
+### v1.4.6 (NGI24M, Dec 2018)
+- Update Unity to v2.2
+
 ### v1.4.5 (NGI22S, Dec 2018)
 - Update Unity to v2.1
 
