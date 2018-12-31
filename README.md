@@ -7,6 +7,12 @@ This module enables optimized Google Play services for expected better battery l
 - All root solutions
 
 ## Changelogs
+### v1.5.0 (ORD01T, Jan 2019)
+- Bump to 18000 Template
+- Update modified props
+- Update doze
+- Reworked backup services
+
 ### v1.4.6 (NGI24M, Dec 2018)
 - Update Unity to v2.2
 

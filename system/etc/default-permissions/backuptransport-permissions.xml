@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<!-- Copyright (C) 2016 The Open GApps Project by @mfonville
+
+    The Open GApps scripts are free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version, w/Open GApps installable zip exception.
+
+    These scripts are distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+-->
+
+<!--
+    This file contains permissions to be granted by default. Default
+    permissions are granted to special platform components and to apps
+    that are approved to get default grants. The special components
+    are apps that are expected to work out-of-the-box as they provide
+    core use cases. Granting these permissions could prevent issues on
+    some ROMs or non-clean installations.
+-->
+
+<exceptions>
+
+   <!--
+    The exceptions below have been set by Open GApps as factory defaults
+    -->
+
+    <exception
+            package="com.google.android.backuptransport">
+        <!-- Contacts -->
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+    </exception>
+
+</exceptions>

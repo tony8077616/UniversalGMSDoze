@@ -27,7 +27,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -65,12 +65,10 @@ unity_custom() {
 
 print_modname() {
   ui_print " "
-  ui_print "    *******************************************"
-  ui_print "    *<name>*"
-  ui_print "    *******************************************"
-  ui_print "    *<version>*"
-  ui_print "    *<author>*"
-  ui_print "    *******************************************"
+  ui_print " Universal GMS Doze Installer "
+  ui_print " "
+  ui_print "         GL-DP wishes         "
+  ui_print "     Happy New Year 2019!     "
   ui_print " "
 }
 
