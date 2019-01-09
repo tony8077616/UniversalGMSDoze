@@ -1,5 +1,5 @@
 # Universal GMS Doze
-This module enables optimized Google Play services for expected better battery life. [More details in support thread.](https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710)
+This module enables optimized Google Play services. [More details in support thread.](https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710)
 
 ## Compatibility
 - Android Marshmallow+
@@ -7,6 +7,18 @@ This module enables optimized Google Play services for expected better battery l
 - All root solutions
 
 ## Changelogs
+### v1.5.3 (ORD09W, Jan 2019)
+- Update doze
+- Unity: Merged latest changes
+
+### v1.5.2 (ORD08T, Jan 2019)
+- Update Unity to v3.0
+
+### v1.5.1 (ORD05S, Jan 2019)
+- Update doze
+- Update patch
+- Removed old parameters
+
 ### v1.5.0 (ORD01T, Jan 2019)
 - Bump to 18000 Template
 - Update modified props
@@ -33,7 +45,6 @@ This module enables optimized Google Play services for expected better battery l
 ### v1.4.1 (NGI09S, Dec 2018)
 - Added modified props
 - Update Unity to v1.8.1
-- Unity: Merged latest changes
 
 ### v1.4.0 (NGI01S, Dec 2018)
 - New modified xml
@@ -65,7 +76,6 @@ This module enables optimized Google Play services for expected better battery l
 
 ### v1.2.1 (NDE13S, Oct 2018)
 - Update doze
-- doze: Perform operations as current user
 
 ### v1.2.0 (NDE08M, Oct 2018)
 - Update Turbo
@@ -79,7 +89,6 @@ This module enables optimized Google Play services for expected better battery l
 - Initial re-release
 
 ## Credits
-- [Developer Previews](https://developer.android.com/topic/performance/power/)
 - [Unity Template](https://github.com/Zackptg5/Unity)
 - [Zackptg5](https://forum.xda-developers.com/member.php?u=6037748) @ xda-developers
 
