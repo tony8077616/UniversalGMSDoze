@@ -7,6 +7,9 @@ This module enables optimized Google Play services. [More details in support thr
 - All root solutions
 
 ## Changelogs
+### v1.5.4 (ORD11F, Jan 2019)
+- Update Unity to v3.1
+
 ### v1.5.3 (ORD09W, Jan 2019)
 - Update doze
 - Unity: Merged latest changes
@@ -16,7 +19,6 @@ This module enables optimized Google Play services. [More details in support thr
 
 ### v1.5.1 (ORD05S, Jan 2019)
 - Update doze
-- Update patch
 - Removed old parameters
 
 ### v1.5.0 (ORD01T, Jan 2019)
