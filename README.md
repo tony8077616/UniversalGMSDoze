@@ -7,6 +7,9 @@ This module enables optimized Google Play services. [More details in support thr
 - All root solutions
 
 ## Changelogs
+### v1.5.5 (ORD16W, Jan 2019)
+- Update Unity to v3.2
+
 ### v1.5.4 (ORD11F, Jan 2019)
 - Update Unity to v3.1
 
