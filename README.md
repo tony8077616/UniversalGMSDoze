@@ -7,6 +7,12 @@ This module enables optimized Google Play services. [More details in support thr
 - All root solutions
 
 ## Changelogs
+### v1.5.6 (ORD20S, Jan 2019)
+- Update doze
+- Reworked modified props
+- Exp: Whitelisted frsysc
+- Exp: Re-enabled Qti
+
 ### v1.5.5 (ORD16W, Jan 2019)
 - Update Unity to v3.2
 

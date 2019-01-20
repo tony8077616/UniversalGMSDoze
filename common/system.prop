@@ -1,10 +1,21 @@
-# Universal GMS Doze
-# Copyright © 2018 GL-DP, gloeyisk
-# This modified props is General
-# Credits to the original author (if applicable)
-# Additional props
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
 power.saving.mode=1
-ro.config.hw_power_saving=true
+doze.display.supported=true
+pm.sleep_mode=1
 ro.com.google.locationfeatures=0
 ro.com.google.networklocation=0
+doze.pulse.notifications=true
 doze.pulse.schedule=1s,10s,30s,60s,120s
+doze.use.accelerometer=0
+persist.sys.purgeable_assets=1
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+ro.debuggable=1
+persist.sys.use_dithering=0
+debug.kill_allocating_task=0
+ro.config.zram=true
+ro.config.swap=true
+ro.vendor.qti.config.zram=true
+debug.enable.gamed=0
