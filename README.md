@@ -7,6 +7,12 @@ This module enables optimized Google Play services. [More details in support thr
 - All root solutions
 
 ## Changelogs
+### v1.6.0 (LUV01F, Feb 2019)
+- New modified xml
+- xml: Reduce blacklisted GMS
+- xml: Whitelisted Turbo
+- Update doze
+
 ### v1.5.6 (ORD20S, Jan 2019)
 - Update doze
 - Reworked modified props
