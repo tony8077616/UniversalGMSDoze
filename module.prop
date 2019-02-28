@@ -1,8 +1,9 @@
 id=UniversalGMSDoze
 name=Universal GMS Doze
-version=v1.6.0 (LUV01F, Feb 2019)
-versionCode=160
+version=v1.6.1 (LST01F, Mar 2019)
+versionCode=161
 author=gloeyisk
 description=Universal GMS Doze is a simple way to optimized the Google Play services
+support=https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710
 donate=https://paypal.me/gloeyisk
 minMagisk=18000

@@ -7,6 +7,13 @@ This module enables optimized Google Play services. [More details in support thr
 - All root solutions
 
 ## Changelogs
+### v1.6.1 (LST01F, Mar 2019)
+- Disabled Find My Device
+- Update Unity to v3.3
+- Unity: Min API 17
+- Removed unnecessary xmls
+- Dropped backup transport
+
 ### v1.6.0 (LUV01F, Feb 2019)
 - New modified xml
 - xml: Reduce blacklisted GMS
