@@ -1,12 +1,3 @@
-# Universal GMS Doze
-# Copyright © 2018-2019 GL-DP, gloeyisk
-# Licensed under the GNU General Public License v2.0
-
-# Additional props
-ro.debuggable=1
-ro.ril.disable.power.collapse=0
-ro.ril.sensor.sleep.control=1
-doze.pulse.sigmotion=0
-doze.shake.acc.threshold=10
-doze.vibrate.sigmotion=0
-debug.doze.component=0
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320

@@ -1,9 +1,6 @@
 id=UniversalGMSDoze
 name=Universal GMS Doze
-version=v1.6.1 (LST01F, Mar 2019)
-versionCode=161
+version=v1.7.0
+versionCode=170
 author=gloeyisk
-description=Universal GMS Doze is a simple way to optimized the Google Play services
-support=https://forum.xda-developers.com/apps/magisk/module-universal-gms-doze-t3853710
-donate=https://paypal.me/gloeyisk
-minMagisk=18000
+description=Optimized GMS and disabled Find My Device with additional modified services
