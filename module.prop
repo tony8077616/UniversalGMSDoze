@@ -1,6 +1,6 @@
 id=UniversalGMSDoze
 name=Universal GMS Doze
-version=v1.7.0
-versionCode=170
+version=v1.7.1-Stable
+versionCode=171
 author=gloeyisk
-description=Optimized GMS and disabled Find My Device with additional modified services
+description=Systemlessly prevent unnecessary GMS running in the background with additional modified services
