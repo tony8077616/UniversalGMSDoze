@@ -1,6 +1,6 @@
 id=UniversalGMSDoze
 name=Universal GMS Doze
-version=v1.7.1-Stable
-versionCode=171
+version=v1.7.2-Stable
+versionCode=172
 author=gloeyisk
-description=Systemlessly prevent unnecessary GMS running in the background with additional modified services
+description=Systemlessly prevent unnecessary GMS running in the background, optimized and tweaked with additional modified services

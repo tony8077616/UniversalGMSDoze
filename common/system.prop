@@ -3,8 +3,12 @@
 # ro.sf.lcd_density=320
 
 # Additional modified props
-ro.debuggable=1
-power.saving.mode=1
-ro.config.hw_power_saving=true
-persist.radio.add_power_saver=1
+persist.sys.use_dithering=0
+persist.radio.ramdump=0
 pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.enable.a53=1
+ro.ril.fast.dormancy.rule=0
+ro.ril.gprsclass=12
+ro.telephony.call_ring.delay=0
+wifi.suplicant_scan_interval=180
