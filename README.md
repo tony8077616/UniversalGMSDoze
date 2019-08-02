@@ -1,10 +1,10 @@
 # Universal GMS Doze
-*Systemlessly prevent unnecessary GMS running in the background with additional modified services*
+*Systemlessly prevent unnecessary GMS running in the background, optimized and tweaked with additional modified services*
 
 ## Installation Guides
 - Either install from Magisk Manager or any custom recoveries.
-- Whether BusyBox and SQLite is already installed (optional).
-- Avoid to use similar modules or tweaks.
+- Check whether BusyBox and SQLite is already installed (optional).
+- Avoid to use similar modules or tweaks at once.
 
 ## Development Supports
 - [Donate](https://paypal.me/gloeyisk)
